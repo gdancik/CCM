@@ -1,0 +1,9 @@
+# NAMESPACE
+
+importFrom("graphics", "boxplot")
+importFrom("stats", "cor")
+
+S3method(predict, CCM)
+S3method(plot, CCM)
+export(create.CCM)
+export(cor.by.class)
